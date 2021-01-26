@@ -4,6 +4,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   display: grid;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -29,4 +31,31 @@ body {
 
 .separator {
   margin: 30px auto;
+}
+
+.footer {
+  display: grid;
+}
+
+.logo {
+  display: grid;
+  height: 50px;
+  width: 50px;
+}
+
+.li-logo {
+  display: grid;
+  height: 34px;
+  width: 43px;
+}
+
+.gh-logo {
+  display: grid;
+  height: 32px;
+  width: 32px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
