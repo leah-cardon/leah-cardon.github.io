@@ -29,6 +29,11 @@ body {
   font-size: 20px;
 }
 
+.projects {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .separator {
   margin: 30px auto;
 }
@@ -58,4 +63,10 @@ body {
 img {
   height: 100%;
   width: 100%;
+}
+
+.social {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 50px 50px;
 }
