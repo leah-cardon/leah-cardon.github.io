@@ -1,2 +1,2 @@
 # leah-cardon.github.io
-My personal website
+My personal website: live at [leahcardon.com](https://leahcardon.com)
