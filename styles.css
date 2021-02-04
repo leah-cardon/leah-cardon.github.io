@@ -3,6 +3,7 @@ body {
   color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
+  font-size: 20px;
   display: grid;
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ body {
 .contents {
   margin: 0 auto;
   display: grid;
+  min-width: 60%;
 }
 
 .summary {
@@ -30,8 +32,10 @@ body {
 }
 
 .projects {
+  display: grid;
   margin: 0 auto;
   text-align: center;
+  min-width: 100%;
 }
 
 .separator {
@@ -72,5 +76,13 @@ img {
 }
 
 .project {
+  display: grid;
+  grid-template-columns: 33% auto;
+  margin: 0 auto;
+  border: 1px white solid;
+  min-width: 100%;
+}
 
+a {
+  color: white;
 }
