@@ -34,7 +34,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: 125px 125px;
-  padding: 20px 0 0 0;
+  padding: 30px 10px 0 0;
   margin: 0 0 0 auto;
   text-align: center;
 }
@@ -47,7 +47,6 @@ body {
 .projects {
   display: grid;
   margin: 0 auto;
-  text-align: center;
   min-width: 100%;
 }
 
@@ -84,14 +83,14 @@ img {
 
 .social {
   display: grid;
-  margin: 0 auto;
+  margin: 30px auto;
   grid-template-columns: 50px 50px;
 }
 
 .project {
   display: grid;
   grid-template-columns: 33% auto;
-  margin: 0 auto;
+  margin: 30px auto;
   border: 1px white solid;
   min-width: 100%;
 }
